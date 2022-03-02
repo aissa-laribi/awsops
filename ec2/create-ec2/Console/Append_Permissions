@@ -1,0 +1,9 @@
+{
+      "Action": [
+        "ec2:RunInstances"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}

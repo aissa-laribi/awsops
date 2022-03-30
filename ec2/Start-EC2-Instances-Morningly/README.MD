@@ -3,7 +3,7 @@ Lambda Function to Start All EC2 Instances in a Region Nightly
 
 ## Purpose
 
-Starting all stopped instances by a function similar to https://github.com/aissa-laribi/awsops/new/main/ec2/Stop-EC2-Instances-Nightly
+Starting all stopped instances by a function similar to https://github.com/aissa-laribi/awsops/tree/main/ec2/Stop-EC2-Instances-Nightly
 
 ## Usage
 

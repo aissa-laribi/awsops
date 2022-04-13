@@ -5,8 +5,8 @@ COPY lambda_function.py ${LAMBDA_TASK_ROOT}
 
 # Install the function's dependencies using file requirements.txt
 # from your project folder.
-
-RUN yum install libwebp-devel ImageMagick-devel -y
+RUN yum update -y
+RUN yum install libwebp libwebp-dev libwebp-tools ImageMagick ImageMagick-devel ImageMagick-perl wget -y
 
 COPY requirements.txt  .
 RUN  pip3 install -r requirements.txt --target "${LAMBDA_TASK_ROOT}"

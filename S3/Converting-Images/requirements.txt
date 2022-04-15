@@ -15,4 +15,4 @@ setuptools==44.0.0
 shellingham==1.4.0  
 six==1.16.0 
 tomli==1.2.3  
-Wand==0.6.7  
+cmagick==0.1.2

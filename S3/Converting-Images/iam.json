@@ -16,8 +16,8 @@
               "s3:GetObject"
           ],
           "Resource": [
-              "arn:aws:s3:::source-lslslsls/*",
-              "arn:aws:s3:::source-lslslsls"
+              "arn:aws:s3:::<SOURCE-BUCKET/*>",
+              "arn:aws:s3:::<SOURCE-BUCKET"
           ]
       },
       {
@@ -26,8 +26,8 @@
               "s3:PutObject"
           ],
           "Resource": [
-              "arn:aws:s3:::dest-lslslsls/*",
-              "arn:aws:s3:::dest-lslslsls"
+              "arn:aws:s3:::<DESTINATION-BUCKET>",
+              "arn:aws:s3:::<DESTINATION-BUCKET>"
           ]
       }
   ]

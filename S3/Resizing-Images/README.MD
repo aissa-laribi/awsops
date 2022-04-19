@@ -1,5 +1,5 @@
 # Lambda Function to Resize Images Automatically
-======
+
 
 ## Purpose
 

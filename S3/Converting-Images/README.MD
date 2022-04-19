@@ -1,5 +1,5 @@
 # Lambda Function to Convert Images to the WebP Format Automatically
-======
+
 
 ## Purpose
 

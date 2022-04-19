@@ -6,6 +6,8 @@
 Converting to the WebP format any image uploaded to an existing S3 Bucket 
 Automatically through the Wand Library and AWS Lambda
 
+![](https://github.com/aissa-laribi/awsops/blob/main/S3/Converting-Images/diagram.png)
+
 ## Prerequisites 
 
 Two S3 Buckets: A Source Bucket and  Destination Bucket

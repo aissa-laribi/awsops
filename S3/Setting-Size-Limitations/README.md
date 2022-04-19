@@ -1,5 +1,4 @@
 # Lambda Function to Delete Files Over A Defined Size Automatically
-======
 
 ## Purpose
 
@@ -8,9 +7,8 @@ exceeding a defined size limit through AWS Lambda
 
 ### In this example, any file exceeding 2MB will be instantly deleted 
 
-## Prerequisites 
+![](https://github.com/aissa-laribi/awsops/blob/main/S3/Setting-Size-Limitations/diagram.png)
 
-An S3 Bucket
 
 ## Usage
 

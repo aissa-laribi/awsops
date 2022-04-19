@@ -1,0 +1,1 @@
+aws dynamodb create-table --table-name Scores --attribute-definitions AttributeName=Date,AttributeType=S --key-schema AttributeName=Date,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5

@@ -15,16 +15,12 @@ check Converting-CSV-To-Json-To-DynamoDB/helpers/create-role.sh.
 ### And Replace <YOUR-BUCKET> with the name of your respective bucket
 ## 3) Write the Lambda function
 by using the Converting-CSV-To-Json-To-DynamoDB/lambda-function.py 
-### Replace in line 8 <TABLENAME> with the name of your DynamoDB Table 2000 if you want to define a different limit.
-
-## 4 Upload the Lambda function 
+### Replace in line 8 <TABLENAME> with the name of your DynamoDB Table.
+## 4) Upload the Lambda function 
 Use the Converting-CSV-To-Json-To-DynamoDB/helpers/create-function.sh file to upload the function
 alongside the CSVTODYNAMODB Role 
-
-## 5 Add the S3 Source Bucket as Trigger in Lambda
+## 5) Add the S3 Source Bucket as Trigger in Lambda
 Go to the Console, and add the S3 Source Bucket and a trigger for the Lambda function.
 ### And add the suffix .csv
-
-## 5 Upload a the csv file supplied in this repo
-
+## 6) Upload a the csv file supplied in this repo
 And it will be automatically converted to json and saved to the DynamoDB Table 

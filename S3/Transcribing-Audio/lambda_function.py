@@ -20,5 +20,3 @@ def lambda_handler(event, context):
             MediaFormat='mp3',
             OutputBucketName= str(bucket),
             OutputKey= '{0}transcribed.json'.format(key))
-
-        

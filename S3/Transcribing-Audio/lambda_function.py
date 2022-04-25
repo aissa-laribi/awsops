@@ -14,11 +14,11 @@ def lambda_handler(event, context):
         print(object_url)
 
         response = transcribe.start_transcription_job(
-            TranscriptionJobName='Transcribe-{}'.format(key), 
+            TranscriptionJobName='Transcribe-{0}'.format(key), 
             LanguageCode= 'en-US', 
             Media={'MediaFileUri': str(object_url)}, 
             MediaFormat='mp3',
-            OutputBucketName=str(bucket),
-            OutputKey='{}transcribed.json'.format(key))
+            OutputBucketName= str(bucket),
+            OutputKey= '{0}transcribed.json'.format(key))
+
         
-        print(response)

@@ -1,28 +1,28 @@
 {
-    "Version": "2012-10-17",
-    "Statement": [{
-        "Effect": "Allow",
-        "Action": [
-          "logs:CreateLogGroup",
-          "logs:CreateLogStream",
-          "logs:PutLogEvents"
-        ],
-        "Resource": "arn:aws:logs:*:*:*"
-      },
-      {
-        "Effect": "Allow",
-        "Action": [
-          "s3:*"
-        ],
-        "Resource": "arn:aws:s3:::<YOUR-BUCKET>/*"
-      },
-      {
-        "Effect": "Allow",
-        "Action": [
-          "transcribe:StartTranscriptionJob"
-        ],
-        "Resource": "*"
-      }
-    ]
-  }
-  
+  "Version": "2012-10-17",
+  "Statement": [{
+      "Effect": "Allow",
+      "Action": [
+        "logs:CreateLogGroup",
+        "logs:CreateLogStream",
+        "logs:PutLogEvents"
+      ],
+      "Resource": "arn:aws:logs:*:*:*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:PutObject",
+        "S3:GetObject"
+      ],
+      "Resource": "arn:aws:s3:::<Bucket-Name>/*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "transcribe:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
